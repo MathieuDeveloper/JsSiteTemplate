@@ -28,12 +28,23 @@ footer .social>a:hover {
     opacity: 0.9;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.bsicon{
+    color:purple;
+}
+
+.jsicon{
+    color: rgba(255, 217, 0, 0.801);
+}
+
+.html5icon{
+    color:orangered;
+}
+
+.css3icon{
+    color:rgb(0, 89, 255);
+}
+
+h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
