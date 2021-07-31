@@ -44,6 +44,10 @@ footer .social>a:hover {
     color:rgb(0, 89, 255);
 }
 
+.checklist > li i{
+    color:var(--secondary-color)
+}
+
 h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
