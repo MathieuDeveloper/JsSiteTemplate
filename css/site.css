@@ -5,6 +5,15 @@
     --white-color: #e7e7e7;
 }
 
+
+code[class="language-"],
+pre[class="language-"]  {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 1.5rem; /* 1em */
+}
+
 body {
     color: var(--dark-color);
 }
@@ -48,10 +57,15 @@ footer .social>a:hover {
     color:var(--secondary-color)
 }
 
+
+
 h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
+
+
 main>.container {
     padding: 60px 15px 0;
 }
+
